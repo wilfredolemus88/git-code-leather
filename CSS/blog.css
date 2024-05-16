@@ -1,0 +1,39 @@
+body
+{
+    background: red;
+
+}
+
+#title
+{
+     color: yellow;
+     font: italics;
+
+}
+h2
+{
+    color: blue;
+    font-family: verdana;
+}
+a
+{
+     color: #000000;
+    text-decoration: underline;
+}
+.btn
+{
+    background-color:yellow;
+    border: solid;
+    color: blue;
+}
+.btn:hover
+
+{
+    background-color: #000000;
+}
+
+h2
+{
+    color: #D9004F;
+    font-family: verdana;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=devise-width">
+    <meta name="Keywords" content="Kimberly Cotter-Lemus, puppets, puppetry, cranky, marionettes, puppet making, ">
+    <meta name="author" content="Kimberly Cotter-Lemus">
+    <meta name="everything about puppets" content="learn every aspect of puppetry"/>
+    <title>Kimberly Cotter-Lemus | Welcome</title>
+    <link rel="stylesheet" type="text/css" href=" index.css">
+    
+ 
+
+
+</head>
+
+<body>
+
+
+    <header>
+       <div class="container">
+          <div id="branding">
+            <h1><span class="highlight">Telling Stories </span>Through the Arts</h1>
+
+
+          </div>
+          <nav>
+            <ul>
+                
+                <li class="current"><a  href="index.html"  id="home" onclick="handleClick(this)">HOME</a></li>
+                <li><a  href="about.html" id="about" onclick="handleClick(this)">ABOUT</a></li>
+                <li><a  href="gallery.html" id="gallery" onclick="handleClick(this)">GALLERY</a></li>
+                <li><a  href="workshops.html" id="workshops" onclick="handleClick(this)">WORKSHOPS</a></li>
+                <li><a  href="blog.html" id="blog" onclick="handleClick(this)">BLOG</a></li>
+                <li><a  href="contacts.html" id="contacts" onclick="handleClick(this)">CONTACTS</a></li>
+            </ul>
+        </nav>
+       </div>
+  </header>
+
+<section id="showcase">
+    <div class="container">
+        <h1>Telling Stories through the Arts</h1>
+        <p>What's YOUR story?</p>
+    </div>
+
+</section>
+<section id="newsletter">
+    <div class="container">
+        <h1>Subscribe To our Newsletter</h1>
+       <!--<form>
+           <input type="email" placeholder="Enter email Adddress">
+            <buttom type="submit"  class="button_1" >Subscribe</buttom>
+
+    <ul id="messages"></ul>
+    <input id="textbox" type="text" /><br><br>
+    <button id="btn">Save</button>
+    <br><br>-->
+
+        <ul id="messages"></ul>
+
+        <form id="form">
+
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="submit" id="submit"  value="Register">
+            <buttom type="submit"  id="button_1" >Subscribe</buttom>
+            <button id="save" id="btn">Save</button>
+           
+
+
+        </form>
+
+    <form action="index.php" method= "get">
+    Name: <input type="text" name="name">
+    <input type="Submit">
+    </form>
+
+    <br>
+    
+<php? echo $_GET["name"] php?>
+
+    </div>
+</section>
+
+<section id="boxes">
+    <div class="container">
+        <div class="box">
+            <img src="IMAGES/working.jpg" height="300px" width="400pix" alt="There is a Picture here" style="width:auto;max-width:100%">
+            <h3>Kim Working</h3>
+            <p>This is the picture that shows Kim painting</p>
+        </div>
+
+       <div class="box">
+           <img src="IMAGES/boy.jpg" height="275px" width="400pix" alt="There is a Picture here" style="width:auto;max-width:100%">
+           <h3>This is the boy image</h3>
+           <p>This picture shows the boy</p>
+        </div>
+
+     <div class="box">
+         <img src="IMAGES/bat.jpg" height="300px" width="400pix" alt="There is a Picture here" style="width:auto;max-width:100%">
+         <h3>This is the Girl with a bat</h3>
+         <p>This picture shows  the girl in shadow</p>
+     </div>
+ </div>
+</section>
+
+    <footer>
+        <p>Wilfredo Lemus Web Desng, Copyright and copy,2017</p>
+    </footer>
+
+<script src = "index.js"></script>
+
+
+  
+</body>
+</html>
